@@ -10,7 +10,6 @@ const DigitalMarketing = () => {
       <div className=" mx-auto max-w-7xl ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="px-4 sm:px-6 lg:px-8 pt-20">
-            
             <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
               Paid Advertising{" "}
             </h1>
@@ -28,11 +27,7 @@ const DigitalMarketing = () => {
           </div>
 
           <div>
-            <img
-              className="w-full"
-              src="src\assets\adv.jpg"
-              alt=""
-            />
+            <img className="w-full" src="adv.jpg" alt="" />
           </div>
         </div>
         <div className="grid items-center">
@@ -54,7 +49,9 @@ const DigitalMarketing = () => {
               majority of digital advertising, PPC advertising is not invasive
               and does not interfere with users' tasks.
             </p>
-            <h2 className="text-lg mb-4">Why Paid Advertising is So Important ?</h2>
+            <h2 className="text-lg mb-4">
+              Why Paid Advertising is So Important ?
+            </h2>
             <p className="text-lg mb-4">
               Paid advertising (also known as Search Engine Marketing) has
               emerged as a key online marketing tactic for expanding a
